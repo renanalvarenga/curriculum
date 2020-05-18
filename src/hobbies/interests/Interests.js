@@ -3,7 +3,7 @@ import './interests.css'
 
 function Interests() {
   return (
-    <section id="interesses" className='interesses'>
+    <section className='interesses'>
       Interests
     </section>
   )

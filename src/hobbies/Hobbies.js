@@ -1,10 +1,14 @@
 import React from 'react'
+import Interests from './interests/Interests'
+import Languages from './languages/Languages'
 
 
 function Hobbies() {
   return (
-    <section>
-        <h1>Idiomas e Interesses</h1>
+    <section id='hobbies'>
+      <h1>Idiomas e Interesses</h1>
+      <Interests />
+      <Languages />
     </section>
   )
 }

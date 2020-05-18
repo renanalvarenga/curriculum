@@ -3,7 +3,7 @@ import './languages.css'
 
 function Languages() {
   return (
-    <section id="idiomas" className='idiomas'>
+    <section className='idiomas'>
       Languages
     </section>
   )
