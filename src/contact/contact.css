@@ -1,0 +1,10 @@
+.contact {
+    background-color: darkslategray;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}

@@ -1,0 +1,19 @@
+.card > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card  {
+    width: 20%;
+    margin: 20px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    background-color: lightgrey;
+}
+
+.card h4 {
+    width: 60%;
+}

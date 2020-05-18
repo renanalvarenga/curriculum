@@ -1,0 +1,13 @@
+.certificate {
+    background-color: darkslategray;
+}
+
+.certificate h1 {
+    color: white;
+}
+
+.certificate > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

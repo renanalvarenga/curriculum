@@ -1,0 +1,9 @@
+.introducao > h4 {
+    margin: 0 250px 25px 250px;
+    text-align: center;
+}
+
+.introducao > img {
+    height: 300px;
+    width: 300px;
+}
