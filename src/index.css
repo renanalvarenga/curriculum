@@ -22,3 +22,32 @@ h4 {
     font-weight: lighter;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > ul {
+    display: flex;
+    padding: 10px;
+    list-style-type: none;    
+}
+
+nav > ul > li {
+    padding-right: 70px;
+}
+
+nav > ul > li:last-child {
+    padding-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: aqua;
+}
+

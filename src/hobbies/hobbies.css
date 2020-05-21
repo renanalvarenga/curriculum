@@ -1,27 +1,28 @@
-.interesses {
+.hobbies {
     margin: 0 150px;
 }
 
-.interesses > nav {
+.hobbies > nav {
     background-color: white;
     justify-content: flex-end;
     padding-right: 8px;
 }
 
-.interesses > div {
+.hobbies > div {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    margin: 20px;
 }
 
-.interesses > div > h4 {
+.hobbies h4 {
     padding-right: 50px;
 }
 
-.interesses > div > h4:last-child {
+.hobbies h4:last-child {
     padding-right: 0px;
 }
 
-.interesses > hr {
+.hobbies > hr {
     border-color: aqua;
     max-width: 50px;
     border-width: 3px;
@@ -30,7 +31,6 @@
     margin-bottom: 25px;
 }
 
-.idiomas {
-    display: flex;
-    flex-direction: column;
+.hobbies article {
+    border: 1px solid aqua;
 }

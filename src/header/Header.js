@@ -4,7 +4,7 @@ import './header.css'
 
 function Header() {
   return (
-    <section className='capa'>
+    <section className='header'>
       <nav>
         <ul>
           <li><a href="#certificados">Certificados</a></li>

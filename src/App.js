@@ -4,8 +4,8 @@ import Introduction from './introduction/Introduction'
 import Certificate from './certificate/Certificate'
 import Experience from './experience/Experience'
 import Skills from './skills/Skills'
-import Interests from './interests/Interests'
 import Footer from './footer/Footer'
+import Hobbies from './hobbies/Hobbies'
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Certificate/>
       <Experience/>
       <Skills/>
-      <Interests/>
+      <Hobbies/>
       <Footer/>
     </>
   )
