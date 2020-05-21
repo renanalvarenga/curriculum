@@ -1,0 +1,36 @@
+.interesses {
+    margin: 0 150px;
+}
+
+.interesses > nav {
+    background-color: white;
+    justify-content: flex-end;
+    padding-right: 8px;
+}
+
+.interesses > div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.interesses > div > h4 {
+    padding-right: 50px;
+}
+
+.interesses > div > h4:last-child {
+    padding-right: 0px;
+}
+
+.interesses > hr {
+    border-color: aqua;
+    max-width: 50px;
+    border-width: 3px;
+    border-top: 0px solid rgba(0,0,0,.1);
+    border-left-style: solid;
+    margin-bottom: 25px;
+}
+
+.idiomas {
+    display: flex;
+    flex-direction: column;
+}

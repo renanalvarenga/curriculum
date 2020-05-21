@@ -1,9 +1,24 @@
-.introducao > h4 {
-    margin: 0 250px 25px 250px;
+.introducao > div > h4 {
+    margin: 0 280px 25px 280px;
     text-align: center;
 }
 
 .introducao > img {
-    height: 633px;
+    height: 651px;
     width: 100%;
+}
+
+.introducao > div {
+    position: absolute;
+    top: 30px;
+    color: white;
+}
+
+.introducao > div > h1 {
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.introducao > div > h4 {
+    font-style: italic;
 }

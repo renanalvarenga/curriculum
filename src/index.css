@@ -1,14 +1,24 @@
 #root {
     display: flex;
     flex-direction: column;
+    
 }
 
 body {
     margin: 0;
+    font-family: 'Roboto';
+    font-weight: lighter;
 }
 
 h1 {
     text-align: center;
     padding: 25px;
+    font-family: 'Roboto';
+    font-weight: bolder;
+}
+
+h4 {
+    font-family: 'Roboto';
+    font-weight: lighter;
 }
 

@@ -11,7 +11,6 @@ function Header() {
           <li><a href="#experiência">Experiência</a></li>
           <li><a href="#habilidades">Habilidades</a></li>
           <li><a href="#hobbies">Idiomas e Interesses</a></li>
-          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </section>

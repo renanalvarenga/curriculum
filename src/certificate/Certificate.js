@@ -25,6 +25,7 @@ function Certificate() {
   return (
     <section id="certificados" className='certificate'>
       <h1>Certificados</h1>
+      <hr className='detalhe'></hr>
       <div>
         {cards.map(item => <Card key={item.title} identificador={item} />)}
       </div>

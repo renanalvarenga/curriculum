@@ -2,10 +2,11 @@ import React from 'react'
 import Header from './header/Header'
 import Introduction from './introduction/Introduction'
 import Certificate from './certificate/Certificate'
-import Contact from './contact/Contact'
 import Experience from './experience/Experience'
 import Skills from './skills/Skills'
-import Hobbies from './hobbies/Hobbies'
+import Interests from './interests/Interests'
+import Footer from './footer/Footer'
+
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
       <Certificate/>
       <Experience/>
       <Skills/>
-      <Hobbies/>
-      <Contact/>
+      <Interests/>
+      <Footer/>
     </>
   )
 }
