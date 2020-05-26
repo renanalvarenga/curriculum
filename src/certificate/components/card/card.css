@@ -1,7 +1,9 @@
-.card > div {
+.card > div, .card > a {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    color: black;
 }
 
 .card  {
@@ -17,5 +19,14 @@
 
 .card h4 {
     width: 60%;
+}
+
+.card > div > span {
+    color: rgb(0, 202, 202);
+    padding-right: 20px;
+}
+
+.card > div > a > .iconeCertificado {
+    padding-right: 5px;
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import './introduction.css'
 import Keyboard from './keyboard.jpg'
+import Renan from './fotoRenan.jpg'
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -11,7 +12,10 @@ function Introduction() {
     <section className='introducao'>
       <img src={Keyboard} alt="keyboard"/>
         <div>
-          <h1>RENAN ALVARENGA</h1>
+          <div className='intro'>
+            <img className='fotoRenan' src={Renan} alt="fotoRenan"/>
+            <h1>RENAN ALVARENGA</h1>
+          </div>
           <h4>Sou estudante de programação, e busco oportunidade profissional que permita meu crescimento intelectual, profissional e técnico na área do desenvolvimento front-end. </h4>
           <nav>
             <ul>

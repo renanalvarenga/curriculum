@@ -1,3 +1,19 @@
 .interesses > div {
     display: flex;
 }
+
+.interesses nav > ul > li {
+    padding-right: 40px;
+}
+
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px) {
+      
+    
+    .interesses nav > ul > li {
+        padding: 0px;
+        }
+
+}

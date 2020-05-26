@@ -12,21 +12,29 @@ function Interests() {
     <div className='interesses'>
       <nav>
         <ul>
-          <li><SportsSoccerIcon htmlColor='black' fontSize='large'/></li>
-          <li><PlayCircleFilledIcon htmlColor='black' fontSize='large'/></li>
-          <li><MovieIcon htmlColor='black' fontSize='large'/></li>
-          <li><FlightTakeoffIcon htmlColor='black' fontSize='large'/></li>
-          <li><PhotoCameraIcon htmlColor='black' fontSize='large'/></li>
+          <li>
+            <SportsSoccerIcon htmlColor='black' fontSize='large'/>
+            <h4>Esporte</h4>
+          </li>
+          <li>
+            <PlayCircleFilledIcon htmlColor='black' fontSize='large'/>
+            <h4>Música</h4>
+          </li>
+          <li>
+            <MovieIcon htmlColor='black' fontSize='large'/>
+            <h4>Cinema</h4>
+          </li>
+          <li>
+            <FlightTakeoffIcon htmlColor='black' fontSize='large'/>
+            <h4>Viagens</h4>
+          </li>
+          <li>
+            <PhotoCameraIcon htmlColor='black' fontSize='large'/>
+            <h4>Fotografia</h4>
+          </li>
         </ul>
       </nav>
-      <div>
-        <h4>Esporte</h4>
-        <h4>Música</h4>
-        <h4>Cinema</h4>
-        <h4>Viagens</h4>
-        <h4>Fotografia</h4>
-      </div>
-    </div >
+    </div>
   )
 }
 

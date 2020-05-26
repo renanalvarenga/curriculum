@@ -8,7 +8,7 @@ function Hobbies() {
   return (
     <section className='hobbies'>
       <h1>Idiomas e Interesses</h1>
-      <hr class='detalhe'/>
+      <hr className='detalhe'/>
      <div>
         <Languages />
         <article />

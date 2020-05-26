@@ -1,7 +1,13 @@
 .skills {
     background-color: lightgrey;
-    padding: 0 150px;
+    padding: 0 400px 25px 400px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    list-style: none;
+}
+
+.skills > li > h4 {
+    margin-bottom: 6px;
+    font-weight: bold;
 }
 
 .skills > hr {
@@ -10,5 +16,150 @@
     border-width: 3px;
     border-top: 0px solid rgba(0,0,0,.1);
     border-left-style: solid;
+    box-shadow: 0 0 3px black;
     margin-bottom: 25px;
 }
+
+.skills > li {
+    margin: 20px 0;
+}
+
+.skills > li > .bar {
+    background: white;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    box-shadow: 0 0 3px aqua;
+}
+
+.skills > li > .bar > span {
+    height: 2px;
+    float: left;
+    background: black;
+}
+
+.html {
+    width: 80%;
+    animation: html 3s;
+}
+
+.css {
+    width: 70%;
+    animation: css 3s;
+}
+
+.javascript {
+    width: 50%;
+    animation: javascript 3s;
+}
+
+.responsivo {
+    width: 80%;
+    animation: responsivo 3s;
+}
+
+.react {
+    width: 60%;
+    animation: react 3s;
+}
+
+.ux {
+    width: 80%;
+    animation: ux 3s;
+}
+
+.acessibilidade {
+    width: 70%;
+    animation: acessibilidade 3s;
+}
+
+.ageis {
+    width: 90%;
+    animation: ageis 3s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 50%;
+    }
+}
+
+@keyframes responsivo {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes ux {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes acessibilidade {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes ageis {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px) {
+      
+    .skills {
+        padding: 0 50px 25px 50px;
+    }
+
+    
+  } 

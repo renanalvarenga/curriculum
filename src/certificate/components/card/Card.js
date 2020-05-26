@@ -1,4 +1,5 @@
 import React from 'react'
+import LinkIcon from '@material-ui/icons/Link'
 
 import './card.css'
 
@@ -9,10 +10,10 @@ function Card({identificador}) {
         <span>{identificador.icon}</span>
         <h4>{identificador.title}</h4>
       </div>
-      <div>
-        <span>Icone</span>
+      <a href={identificador.href}> 
+        <span className='iconeCertificado'><LinkIcon /></span>
         <h4>Certificado</h4>
-      </div>
+      </a>
     </div>
   )
 }
