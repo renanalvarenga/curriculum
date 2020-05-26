@@ -11,6 +11,7 @@ function App() {
       <Switch>
         <Route path='/' component={Main} exact />
         <Route path='/certificados' component={Certificate} />
+        <Route path='*' component={Main} />
       </Switch>
       <Footer/>
     </>

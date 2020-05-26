@@ -10,6 +10,7 @@ import MobileFriendlyIcon from '@material-ui/icons/MobileFriendly'
 
 function Certificate() {
   const match = useRouteMatch("/certificados")
+  const countCertificates = window.innerWidth < 400 ? 3 : 11
 
   const cards = [
     { icon: <CodeIcon />, title: 'HTML5 e CSS3 parte 1: A primeira página da Web', href:'https://cursos.alura.com.br/certificate/0955c2f7-0a95-4d6d-9a50-2b3eb7a3c5f7' },
@@ -35,7 +36,7 @@ function Certificate() {
       <hr className='detalhe'></hr>
       <div>
         {cards.map((item, index) => {
-          if (index > 11 && !match) {
+          if (index > countCertificates && !match) {
             return <Fragment key={item.title} />
           }
           return <Card key={item.title} identificador={item} />
