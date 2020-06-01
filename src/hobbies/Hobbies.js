@@ -6,7 +6,7 @@ import './hobbies.css'
 
 function Hobbies() {
   return (
-    <section className='hobbies'>
+    <section id="hobbies" className='hobbies'>
       <h1>Idiomas e Interesses</h1>
       <hr className='detalhe'/>
      <div>

@@ -61,20 +61,17 @@
 
     .hobbies > div {
         flex-direction: column;
+        margin-bottom: 25px;
     }
 
-    nav > ul {
+    .hobbies > nav > ul {
         flex-direction: column;
     }
 
     .hobbies article {
-        transform: rotate(90deg);
-        height: 160px;
-    }
-
-    .interesses svg {
-        width: 2em;
-        height: 2em;
+        width: 160px;
+        margin: 40px 0;
+        height: 0;
     }
 
 }

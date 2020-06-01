@@ -7,6 +7,7 @@ import WebIcon from '@material-ui/icons/Web'
 import WebAssetIcon from '@material-ui/icons/WebAsset'
 import GroupIcon from '@material-ui/icons/Group'
 import MobileFriendlyIcon from '@material-ui/icons/MobileFriendly'
+import SportsRugbyIcon from '@material-ui/icons/SportsRugby'
 
 function Certificate() {
   const match = useRouteMatch("/certificados")
@@ -27,7 +28,8 @@ function Certificate() {
     { icon: <WebIcon />, title: 'Web Design Responsivo: Páginas que se adaptam do mobile ao desk', href:'https://cursos.alura.com.br/certificate/3fcf325a-3e27-4580-8758-b1a957afa11a' },
     { icon: <GroupIcon />, title: 'Estratégia em Mídias Sociais: Do básico ao avançado', href:'https://cursos.alura.com.br/certificate/fa3efe5a-be12-4f62-ad5a-46d7f39ebb07' },
     { icon: <GroupIcon />, title: 'UX: o que é experiência de usuário', href:'https://cursos.alura.com.br/certificate/fd14b054-59fc-4d1a-ba2b-5e4320b01be3' },
-    { icon: <MobileFriendlyIcon />, title: 'UI Design Patterns: Usabilidade em interfaces mobile', href:'https://cursos.alura.com.br/certificate/88f79b99-f808-4e05-9cff-acd19d86fa2d' }
+    { icon: <MobileFriendlyIcon />, title: 'UI Design Patterns: Usabilidade em interfaces mobile', href:'https://cursos.alura.com.br/certificate/88f79b99-f808-4e05-9cff-acd19d86fa2d' },
+    { icon: <SportsRugbyIcon />, title: 'SCRUM: Agilidade em seu projeto', href:'https://cursos.alura.com.br/certificate/d113acaa-49f9-424e-a2c0-47f9f8128b82' }
   ]
 
   return (

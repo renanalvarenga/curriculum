@@ -13,7 +13,16 @@
       
     
     .interesses nav > ul > li {
-        padding: 0px;
-        }
+        size: 2em;
+        padding: 10px;
+    }
 
+    .interesses nav > ul {
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .interesses nav > ul > li > h4 {
+        display: none;
+    }
 }

@@ -1,8 +1,9 @@
 .skills {
-    background-color: lightgrey;
+    background-image: -webkit-linear-gradient(315deg, black 0, lightgray 100%);
     padding: 0 400px 25px 400px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     list-style: none;
+    color: white;
+    padding-bottom: 25px;
 }
 
 .skills > li > h4 {
@@ -27,16 +28,16 @@
 .skills > li > .bar {
     background: white;
     display: block;
-    height: 2px;
+    height: 3px;
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 3px;
-    box-shadow: 0 0 3px aqua;
+    box-shadow: 0 0 3px black;
 }
 
 .skills > li > .bar > span {
-    height: 2px;
+    height: 3px;
     float: left;
-    background: black;
+    background: rgb(0, 202, 202);
 }
 
 .html {
@@ -75,7 +76,7 @@
 }
 
 .ageis {
-    width: 90%;
+    width: 80%;
     animation: ageis 3s;
 }
 
@@ -147,7 +148,7 @@
         width: 0%;
     }
     100% {
-        width: 90%;
+        width: 80%;
     }
 }
 

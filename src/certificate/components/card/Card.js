@@ -7,11 +7,11 @@ function Card({identificador}) {
   return (
     <div className='card'>
       <div>
-        <span>{identificador.icon}</span>
+        {identificador.icon}
         <h4>{identificador.title}</h4>
       </div>
       <a href={identificador.href}> 
-        <span className='iconeCertificado'><LinkIcon /></span>
+        <LinkIcon />
         <h4>Certificado</h4>
       </a>
     </div>

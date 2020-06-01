@@ -1,7 +1,8 @@
 .certificate {
-    background-color: lightgrey;
+    background-image: -webkit-linear-gradient(315deg, black 0, lightgray 100%);
     margin-top: -4px;
     padding-bottom: 25px;
+    color: white;
 }
 
 .certificate > div {
@@ -23,7 +24,8 @@
 
 .button {
     font-family: 'Roboto';
-    background-color: aqua;
+    background-image: -webkit-linear-gradient(45deg, rgb(0, 202, 202) 0, aqua 100%);
+    border-color: aqua;
     color: black;
     font-size: 14px;
     padding: 12px 35px;
@@ -34,6 +36,12 @@
     justify-content: center;
     cursor: pointer;
 }
+
+.button:focus {
+    outline: none;
+}
+
+
 
 @media only screen 
   and (min-width: 320px) 

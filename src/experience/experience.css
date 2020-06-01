@@ -20,6 +20,7 @@
     margin-bottom: 25px;
 }
 
+
 .experience > div > img:first-child {
     padding-right: 100px;
 }
@@ -38,7 +39,11 @@
         flex-direction: column;
     }
 
-    .experience > div > img:first-child {
+    .experience > div > img {
         padding: 25px 0 25px 0;
+    }
+
+    .experience > div > img:first-child {
+        padding-right: 0px;
     }
   } 
