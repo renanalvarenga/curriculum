@@ -51,9 +51,7 @@
 }
 
 .card a h4 {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    width: 70px;
 }
 
 .card:hover svg, .card:hover > a > h4 {
