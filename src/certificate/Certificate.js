@@ -35,7 +35,7 @@ function Certificate() {
   return (
     <section id="certificados" className='certificate'>
       <h1>Certificados</h1>
-      <hr className='detalhe'></hr>
+      <hr className='detalhe'/>
       <div>
         {cards.map((item, index) => {
           if (index > countCertificates && !match) {
