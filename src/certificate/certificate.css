@@ -1,5 +1,5 @@
 .certificate {
-    background-image: -webkit-linear-gradient(315deg, black 0, lightgray 100%);
+    background-image: linear-gradient(315deg, black 0, lightgray 100%);
     margin-top: -4px;
     padding-bottom: 25px;
     color: white;
@@ -18,13 +18,12 @@
     border-width: 3px;
     border-top: 0px solid rgba(0,0,0,.1);
     border-left-style: solid;
-    box-shadow: 0 0 3px black;
     margin-bottom: 25px;
 }
 
 .button {
     font-family: 'Roboto';
-    background-image: -webkit-linear-gradient(45deg, rgb(0, 202, 202) 0, aqua 100%);
+    background-image: linear-gradient(45deg, rgb(0, 202, 202) 0, aqua 100%);
     border-color: aqua;
     color: black;
     font-size: 14px;
@@ -40,7 +39,6 @@
 .button:focus {
     outline: none;
 }
-
 
 
 @media only screen 

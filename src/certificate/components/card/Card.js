@@ -8,11 +8,11 @@ function Card({identificador}) {
     <div className='card'>
       <div>
         {identificador.icon}
-        <h4>{identificador.title}</h4>
+        <h4 title={identificador.title}>{identificador.title}</h4>
       </div>
       <a href={identificador.href}> 
         <LinkIcon />
-        <h4>Certificado</h4>
+        <h4 title='Certificado'>Certificado</h4>
       </a>
     </div>
   )
