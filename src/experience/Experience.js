@@ -1,7 +1,7 @@
 import React from 'react'
 import './experience.css'
-import Ativaidade from './logoAtivaidade.png'
-import Viajamente from './logoViajamente.png'
+import Ativaidade from './pictureativaidade.jpg'
+import Viajamente from './pictureviajamente.jpg'
 
 
 
@@ -11,8 +11,14 @@ function Experience() {
       <h1>Experiência</h1>
       <hr className='detalhe'></hr>
         <div>
-          <img src={Ativaidade} width='240px' height='70px' alt="logoAtivaidade"/>
-          <img src={Viajamente} width='135px' height='120px' alt="logoViajamente"/>
+          <div className='empresas'>
+            <img src={Ativaidade} alt="logoAtivaidade"/>
+              <p><b>Ativaidade</b> - Academia</p>
+            </div>
+          <div className='empresas'>
+            <img src={Viajamente} alt="logoViajamente"/>
+              <p><b>Viajamente</b> - Produtora audiovisual</p>
+          </div>
         </div>
     </section>
   )

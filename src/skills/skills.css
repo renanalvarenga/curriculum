@@ -1,5 +1,5 @@
 .skills {
-    background-image: linear-gradient(315deg, black 0, lightgray 100%);
+    background-image: linear-gradient(150deg, black 0, lightgray 100%);
     padding: 25px 30%;
     list-style: none;
     color: white;
@@ -161,7 +161,7 @@
   and (max-width: 568px) {
       
     .skills {
-        padding: 0 50px 25px 50px;
+        padding: 20px 50px 25px 50px;
     }
 
     

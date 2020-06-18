@@ -8,6 +8,7 @@ import WebAssetIcon from '@material-ui/icons/WebAsset'
 import GroupIcon from '@material-ui/icons/Group'
 import MobileFriendlyIcon from '@material-ui/icons/MobileFriendly'
 import SportsRugbyIcon from '@material-ui/icons/SportsRugby'
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Certificate() {
   const match = useRouteMatch("/certificados")
@@ -29,7 +30,10 @@ function Certificate() {
     { icon: <GroupIcon />, title: 'Estratégia em Mídias Sociais: Do básico ao avançado', href:'https://cursos.alura.com.br/certificate/fa3efe5a-be12-4f62-ad5a-46d7f39ebb07' },
     { icon: <GroupIcon />, title: 'UX: o que é experiência de usuário', href:'https://cursos.alura.com.br/certificate/fd14b054-59fc-4d1a-ba2b-5e4320b01be3' },
     { icon: <MobileFriendlyIcon />, title: 'UI Design Patterns: Usabilidade em interfaces mobile', href:'https://cursos.alura.com.br/certificate/88f79b99-f808-4e05-9cff-acd19d86fa2d' },
-    { icon: <SportsRugbyIcon />, title: 'SCRUM: Agilidade em seu projeto', href:'https://cursos.alura.com.br/certificate/d113acaa-49f9-424e-a2c0-47f9f8128b82' }
+    { icon: <SportsRugbyIcon />, title: 'SCRUM: Agilidade em seu projeto', href:'https://cursos.alura.com.br/certificate/d113acaa-49f9-424e-a2c0-47f9f8128b82' },
+    { icon: <GitHubIcon />, title: 'Introdução ao Git e Controle de Versões', href:'https://certificates.digitalinnovation.one/3AFB83E9' },
+    { icon: <GitHubIcon />, title: 'Introdução ao GitHub e Comandos para Trabalhar em Equipe', href:'https://certificates.digitalinnovation.one/5F8A30D9' },
+    { icon: <CodeIcon />, title: 'Lógica de Programação Essencial', href:'https://certificates.digitalinnovation.one/D53C7BEC' },
   ]
 
   return (

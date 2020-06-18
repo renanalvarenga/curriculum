@@ -1,5 +1,5 @@
 .introducao > div > h4 {
-    margin: 0 280px 25px 280px;
+    margin: 0 20% 25px 20%;
     text-align: center;
 }
 
@@ -12,6 +12,7 @@
     position: absolute;
     top: 30px;
     color: white;
+    padding-left: 50px;
 }
 
 .introducao > div > .intro > h1 {
@@ -52,6 +53,7 @@
 
     .introducao > div {
         margin-top: -50px;
+        padding-left: 0;
     }
 
     .introducao > div > .intro > h1{

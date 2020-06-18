@@ -1,6 +1,6 @@
 .experience {
-    padding: 0 150px 25px 150px;
-    margin-bottom: 6px;
+    padding: 0 220px 25px 220px;
+    height: 400px;
 }
 
 .experience > hr {
@@ -14,14 +14,27 @@
 
 .experience > div {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 25px;
 }
 
 
-.experience > div > img:first-child {
-    padding-right: 100px;
+.experience > div > .empresas > img {
+    width: 300px;
+    height: 180px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.experience > div > .empresas > img:hover {
+    width: 330px;
+    height: 198px;
+    cursor: pointer;
+}
+
+.experience > div > .empresas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -32,6 +45,7 @@
 
     .experience {
         padding: 0 0px 25px 0px;
+        height: auto;
     }
 
     .experience > div {
