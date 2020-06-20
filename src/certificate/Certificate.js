@@ -34,6 +34,7 @@ function Certificate() {
     { icon: <GitHubIcon />, title: 'Introdução ao Git e Controle de Versões', href:'https://certificates.digitalinnovation.one/3AFB83E9' },
     { icon: <GitHubIcon />, title: 'Introdução ao GitHub e Comandos para Trabalhar em Equipe', href:'https://certificates.digitalinnovation.one/5F8A30D9' },
     { icon: <CodeIcon />, title: 'Lógica de Programação Essencial', href:'https://certificates.digitalinnovation.one/D53C7BEC' },
+    { icon: <CodeIcon />, title: `JavaScript: Primeiros passos com a linguagem`, href:'https://cursos.alura.com.br/certificate/367f772f-0668-49d2-aa40-d8ca39b51593' }
   ]
 
   return (

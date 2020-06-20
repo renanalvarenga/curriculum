@@ -4,7 +4,7 @@ import './footer.css'
 function Footer() {
   return (
     <section id="footer" className='footer'>
-      <h4>2020 - Desenvolvido por Renan Alvarenga</h4>
+      <h4>SITE E DESIGN DESENVOLVIDOS POR RENAN ALVARENGA</h4>
     </section>
   )
 }
