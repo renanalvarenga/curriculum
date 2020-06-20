@@ -14,14 +14,6 @@
     padding: 0;
 }
 
-.skills > hr {
-    border-color: aqua;
-    max-width: 50px;
-    border-top: 0px solid rgba(0,0,0,.1);
-    border-left-style: solid;
-    margin-bottom: 25px;
-}
-
 .skills > li {
     margin: 20px 0;
 }

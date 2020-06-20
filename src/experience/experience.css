@@ -3,15 +3,6 @@
     height: 400px;
 }
 
-.experience > hr {
-    border-color: aqua;
-    max-width: 50px;
-    border-width: 3px;
-    border-top: 0px solid rgba(0,0,0,.1);
-    border-left-style: solid;
-    margin-bottom: 25px;
-}
-
 .experience > div {
     display: flex;
     justify-content: space-between;
@@ -26,8 +17,7 @@
 }
 
 .experience > div > .empresas > img:hover {
-    width: 330px;
-    height: 198px;
+    transform: scale(1.1);
     cursor: pointer;
 }
 
