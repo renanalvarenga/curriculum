@@ -18,6 +18,7 @@
 
 .hobbies h4 {
     padding-right: 50px;
+    white-space: nowrap;
 }
 
 .hobbies h4:last-child {
