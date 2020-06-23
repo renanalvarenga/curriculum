@@ -12,11 +12,13 @@ function Experience() {
       <hr className='detalhe'></hr>
         <div>
           <div className='empresas'>
-            <img src={Ativaidade} alt="logoAtivaidade"/>
+            <img src={Ativaidade} alt="logoAtivaidade" />
               <p><b>Ativaidade</b> - Academia</p>
             </div>
           <div className='empresas'>
-            <img src={Viajamente} alt="logoViajamente"/>
+            <a href='https://www.viajamente.com.br' target='_blank' rel="noopener noreferrer">
+              <img src={Viajamente} alt="logoViajamente" />
+            </a>
               <p><b>Viajamente</b> - Produtora audiovisual</p>
           </div>
         </div>

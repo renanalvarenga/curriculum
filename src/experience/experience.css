@@ -10,13 +10,13 @@
 }
 
 
-.experience > div > .empresas > img {
+.experience > div > .empresas img {
     width: 300px;
     height: 180px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
 }
 
-.experience > div > .empresas > img:hover {
+.experience > div > .empresas img:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -42,11 +42,11 @@
         flex-direction: column;
     }
 
-    .experience > div > img {
+    .experience > div img {
         padding: 25px 0 25px 0;
     }
 
-    .experience > div > img:first-child {
+    .experience > div img:first-child {
         padding-right: 0px;
     }
   } 
