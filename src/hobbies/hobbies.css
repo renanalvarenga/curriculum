@@ -11,7 +11,7 @@
 
 .hobbies > div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin: 20px;
 }
@@ -27,6 +27,7 @@
 .hobbies article {
     border: 2px solid black;
     height: 135px;
+    margin: 0 10%;
 }
 
 
