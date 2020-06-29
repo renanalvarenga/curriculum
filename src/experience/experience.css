@@ -45,11 +45,11 @@
         flex-direction: column;
     }
 
-    .experience > div img {
-        padding: 25px 0 25px 0;
+    .experience > div > img:first-child {
+        padding-right: 0px;
     }
 
-    .experience > div img:first-child {
-        padding-right: 0px;
+    .experience > div > .empresas:first-child {
+        margin-right: 0;
     }
   } 
