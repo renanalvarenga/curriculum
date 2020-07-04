@@ -1,37 +1,40 @@
 import React from 'react'
-import './skills.css'
+
+import styled from 'styled-components'
+import Skill from './components/skill/Skill'
 
 function Skills() {
   return (
-    <section id="habilidades" className='skills'>
+    <SkillsContent id="habilidades">
       <h1>Habilidades</h1>
-      <hr className='detalhe' />
-        <li>
-          <h4>HTML</h4><span className='bar'><span className='html' /></span>
-        </li>
-        <li>
-          <h4>CSS</h4><span className='bar'><span className='css' /></span>
-        </li>
-        <li>
-          <h4>JavaScript</h4><span className='bar'><span className='javascript'/></span>
-        </li>
-        <li>
-          <h4>Design Responsivo</h4><span className='bar'><span className='responsivo'/></span>
-        </li>
-        <li>
-          <h4>React</h4><span className='bar'><span className='react'/></span>
-        </li>
-        <li>
-          <h4>UI/UX</h4><span className='bar'><span className='ux'/></span>
-        </li>
-        <li>
-          <h4>Acessibilidade</h4><span className='bar'><span className='acessibilidade'/></span>
-        </li>
-        <li>
-          <h4>Metodologias Ágeis</h4><span className='bar'><span className='ageis'/></span>
-        </li>
-    </section>
+      <hr/>
+      <Skill title='HTML' size={80} />
+      <Skill title='CSS' size={70} />
+      <Skill title='JavaScript' size={50} />
+      <Skill title='Design Responsivo' size={80} />
+      <Skill title='React' size={60} />
+      <Skill title='UI/UX' size={80} />
+      <Skill title='Acessibilidade' size={70} />
+      <Skill title='Metodologias Ágeis' size={80} />
+    </SkillsContent>
   )
 }
 
 export default Skills;
+
+const SkillsContent = styled.section`
+  background-image: linear-gradient(150deg, black 0, lightgray 100%);
+  padding: 25px 30%;
+  list-style: none;
+  color: white;
+  
+  h1 {
+    padding: 0;
+  }
+
+  @media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px) {
+    padding: 20px 50px 25px 50px;
+  }
+`

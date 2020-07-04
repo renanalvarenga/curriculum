@@ -1,9 +1,10 @@
 import React from 'react'
-import './header.css'
+
+import styled from 'styled-components'
 
 function Header() {
   return (
-    <section className='header'>
+    <HeaderContent>
       <nav>
         <ul>
           <li><a href="#certificados">Certificados</a></li>
@@ -12,8 +13,23 @@ function Header() {
           <li><a href="#hobbies">Idiomas e Interesses</a></li>
         </ul>
       </nav>
-    </section>
+    </HeaderContent>
   )
 }
 
 export default Header;
+
+const HeaderContent = styled.section`
+  nav {
+    background-color: rgb(0, 0, 0);
+    ul > li > a {
+      text-transform: uppercase;
+    }
+  }
+
+  @media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px) {
+    display: none;
+  } 
+`
