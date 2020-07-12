@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Card from './components/card/Card'
 import './certificate.css'
-import { Link, useRouteMatch } from 'react-router-dom'
+import { useRouteMatch, useHistory } from 'react-router-dom'
 import CodeIcon from '@material-ui/icons/Code'
 import WebIcon from '@material-ui/icons/Web'
 import WebAssetIcon from '@material-ui/icons/WebAsset'
@@ -12,7 +12,12 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Certificate() {
   const match = useRouteMatch("/certificados")
+  const history = useHistory()
   const countCertificates = window.innerWidth < 400 ? 3 : 11
+
+  const goTo = (type) => {
+    history.push(type)
+  }
 
   const cards = [
     { icon: <CodeIcon />, title: 'HTML5 e CSS3 parte 1: A primeira página da Web', href:'https://cursos.alura.com.br/certificate/0955c2f7-0a95-4d6d-9a50-2b3eb7a3c5f7' },
@@ -50,14 +55,10 @@ function Certificate() {
         })}
       </div>
       {!match && <div>
-        <Link to='/certificados'>
-          <button className='button'>Veja mais</button>
-        </Link>
+        <button className='button' onClick={() => goTo('/certificados')}>Veja mais</button>
       </div>}
       {match && <div>
-        <Link to="/">
-          <button className='button'>Voltar</button>
-        </Link>
+        <button className='button' onClick={() => goTo('/')}>Voltar</button>
       </div>}
     </section>
   )
