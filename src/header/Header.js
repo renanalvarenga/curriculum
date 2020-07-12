@@ -22,6 +22,7 @@ export default Header;
 const HeaderContent = styled.section`
   nav {
     background-color: rgb(0, 0, 0);
+    
     ul > li > a {
       text-transform: uppercase;
     }

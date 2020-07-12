@@ -15,7 +15,7 @@ function Skill({title, size}) {
 
 export default Skill;
 
-const SkillContent = styled.li`
+const SkillContent = styled.div`
     margin: 20px 0;
 
     h4 {

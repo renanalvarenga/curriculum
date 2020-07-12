@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './introduction.css'
 import Keyboard from './keyboard.jpg'
 import Renan from './fotoRenan.jpg'
@@ -8,11 +9,13 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
 
+import styled from 'styled-components'
+
 import pdf from './Curriculo Renan Alvarenga.pdf'
 
 function Introduction() {
   return (
-    <section className='introducao'>
+    <IntroductionContent className='introducao'>
       <img src={Keyboard} alt="keyboard"/>
         <div>
           <div className='intro'>
@@ -30,8 +33,12 @@ function Introduction() {
             </ul>
           </nav>
         </div>
-    </section>
+    </IntroductionContent>
   )
 }
 
 export default Introduction;
+
+const IntroductionContent = styled.section`
+  
+`
