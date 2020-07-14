@@ -5,7 +5,7 @@ import styled from 'styled-components'
 function Footer() {
   return (
     <FooterContent id="footer">
-      <h4>SITE E DESIGN DESENVOLVIDOS POR RENAN ALVARENGA</h4>
+      <h4>SITE E DESIGN DESENVOLVIDOS POR <a href='https://www.renanalvarenga.com.br'>RENAN ALVARENGA</a></h4>
     </FooterContent>
   )
 }
@@ -18,5 +18,9 @@ const FooterContent = styled.section`
   h4 {
     text-align: center;
     font-size: 12px;
+  }
+
+  a {
+    color: aqua;
   }
 `
