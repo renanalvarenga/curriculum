@@ -65,9 +65,14 @@ const ExperienceContent = styled.section`
     & > div {
       flex-direction: column;
 
-      div:first-child {
+      & div:first-child {
         margin-right: 0;
+        padding-bottom: 30px;
       }
+
+      img {
+        height: 160px;
+        width: 300px;
 
       img:first-child {
         padding-right: 0px;
