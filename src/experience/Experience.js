@@ -1,8 +1,8 @@
 import React from 'react'
 
 import styled from 'styled-components'
-import Ativaidade from './pictureativaidade.jpg'
-import Viajamente from './pictureviajamente.jpg'
+import Ativaidade from './pictureAtivaidade.png'
+import Viajamente from './pictureViajamente.png'
 
 function Experience() {
   return (
@@ -46,9 +46,7 @@ const ExperienceContent = styled.section`
       }
 
       img {
-        width: 300px;
         height: 180px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
 
         &:hover {
           transform: scale(1.1);

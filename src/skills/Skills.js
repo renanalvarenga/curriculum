@@ -1,6 +1,7 @@
 import React from 'react'
 
 import styled from 'styled-components'
+import fundoSkills from './fundoSkills.png'
 import Skill from './components/skill/Skill'
 
 function Skills() {
@@ -23,7 +24,8 @@ function Skills() {
 export default Skills;
 
 const SkillsContent = styled.section`
-  background-image: linear-gradient(150deg, black 0, lightgray 100%);
+  background-image: linear-gradient(0deg, rgba(12, 11, 12, 0.7), rgba(12, 11, 12, 0.7)), url(${fundoSkills});
+  background-attachment: fixed;
   padding: 25px 30%;
   list-style: none;
   color: white;
