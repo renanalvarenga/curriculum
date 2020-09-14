@@ -3,23 +3,34 @@ import React from 'react'
 import styled from 'styled-components'
 import Ativaidade from './pictureAtivaidade.png'
 import Viajamente from './pictureViajamente.png'
+import Michelon from './pictureMichelon.png'
 
 function Experience() {
   return (
-    <ExperienceContent id="experiencia">
-      <h1>Experiência</h1>
+    <ExperienceContent id="portfolio">
+      <h1>Portfólio</h1>
       <hr />
         <div>
-          <div>
-            <img src={Ativaidade} alt="logoAtivaidade" />
-              <p><b>Ativaidade</b> - Academia</p>
-          </div>
           <div>
             <a href='https://www.viajamente.com.br' target='_blank' rel="noopener noreferrer">
               <img src={Viajamente} alt="logoViajamente" />
             </a>
-              <p><b>Viajamente</b> - Produtora audiovisual</p>
+              <h3><b>Viajamente</b></h3>
+              <p>Produtora audiovisual</p>
           </div>
+          <div>
+            <a href='https://michelonauditores.netlify.app/' target='_blank' rel="noopener noreferrer">
+              <img src={Michelon} alt="logoMichelon" />
+            </a>
+              <h3><b>Michelon (em desenvolvimento)</b></h3>
+              <p>Empresa de auditoria e consultoria</p>
+          </div>
+          <div>
+            <img src={Ativaidade} alt="logoAtivaidade" />
+              <h3><b>Ativaidade (em desenvolvimento)</b></h3>
+              <p>Academia</p>
+          </div>
+          
         </div>
     </ExperienceContent>
   )
@@ -29,7 +40,7 @@ export default Experience;
 
 const ExperienceContent = styled.section`
   padding: 0 220px 25px 220px;
-  height: 400px;
+  height: auto;
 
   & > div {
     display: flex;
@@ -40,18 +51,19 @@ const ExperienceContent = styled.section`
       display: flex;
       flex-direction: column;
       align-items: center;
-
-      &:first-child {
-        margin-right: 20%;
-      }
+      padding: 20px;
 
       img {
-        height: 180px;
+        height: 170px;
 
         &:hover {
           transform: scale(1.1);
           cursor: pointer;
         }
+      }
+
+      p {
+        margin-top: 0;
       }
     }
   }
@@ -59,24 +71,17 @@ const ExperienceContent = styled.section`
   @media only screen 
   and (min-width: 320px) 
   and (max-width: 568px) {
-    padding: 0 0px 25px 0px;
+    padding: 0 0 25px 0;
     height: auto;
 
     & > div {
       flex-direction: column;
-
-      & div:first-child {
-        margin-right: 0;
-        padding-bottom: 30px;
-      }
+      margin-right: 0;
+    }
 
       img {
-        height: 160px;
-        width: 300px;
-
-      img:first-child {
-        padding-right: 0px;
-      }
+        height: 140px;
+        width: 280px;
     }
   } 
 `
