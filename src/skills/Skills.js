@@ -14,6 +14,7 @@ function Skills() {
       <Skill title='JavaScript' size={50} />
       <Skill title='Design Responsivo' size={80} />
       <Skill title='React' size={60} />
+      <Skill title='Angular' size={50} />
       <Skill title='UI/UX' size={80} />
       <Skill title='Acessibilidade' size={70} />
       <Skill title='Metodologias Ágeis' size={80} />

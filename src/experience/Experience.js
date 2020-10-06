@@ -19,10 +19,10 @@ function Experience() {
               <p>Produtora audiovisual</p>
           </div>
           <div>
-            <a href='https://michelonauditores.netlify.app/' target='_blank' rel="noopener noreferrer">
+            <a href='https://www.michelonauditores.com.br/' target='_blank' rel="noopener noreferrer">
               <img src={Michelon} alt="logoMichelon" />
             </a>
-              <h3><b>Michelon (em desenvolvimento)</b></h3>
+              <h3><b>Michelon Auditores</b></h3>
               <p>Empresa de auditoria e consultoria</p>
           </div>
           <div>
