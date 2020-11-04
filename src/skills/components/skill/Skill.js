@@ -42,7 +42,7 @@ const SkillContent = styled.div`
         0% {
             width: 0%;
         }
-        100% {
+        200% {
             width: ${props => props.bar}%;
         }
     }
