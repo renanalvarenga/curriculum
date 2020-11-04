@@ -9,7 +9,7 @@ function Skills() {
     <SkillsContent id="habilidades">
       <h1>Habilidades</h1>
       <hr/>
-      <Skill title='HTML' size={80} />
+      <Skill title='HTML' size={90} />
       <Skill title='CSS' size={70} />
       <Skill title='JavaScript' size={50} />
       <Skill title='Design Responsivo' size={80} />
@@ -25,14 +25,15 @@ function Skills() {
 export default Skills;
 
 const SkillsContent = styled.section`
-  background-image: linear-gradient(0deg, rgba(12, 11, 12, 0.7), rgba(12, 11, 12, 0.7)), url(${fundoSkills});
+  background-image: linear-gradient(0deg, rgba(12, 11, 12, 0.83), rgba(12, 11, 12, 0.83)), url(${fundoSkills});
   background-attachment: fixed;
-  padding: 25px 30%;
+  padding: 25px 30% 40px 30%;
   list-style: none;
-  color: white;
+  color: aqua;
   
   h1 {
     padding: 0;
+    color: white;
   }
 
   @media only screen 

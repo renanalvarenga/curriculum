@@ -1,7 +1,6 @@
 import React from 'react'
 
 import styled from 'styled-components'
-import Ativaidade from './pictureAtivaidade.png'
 import Viajamente from './pictureViajamente.png'
 import Michelon from './pictureMichelon.png'
 
@@ -25,12 +24,6 @@ function Experience() {
               <h3><b>Michelon Auditores</b></h3>
               <p>Empresa de auditoria e consultoria</p>
           </div>
-          <div>
-            <img src={Ativaidade} alt="logoAtivaidade" />
-              <h3><b>Ativaidade (em desenvolvimento)</b></h3>
-              <p>Academia</p>
-          </div>
-          
         </div>
     </ExperienceContent>
   )

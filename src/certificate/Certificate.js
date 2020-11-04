@@ -39,7 +39,10 @@ function Certificate() {
     { icon: <GitHubIcon />, title: 'Introdução ao Git e Controle de Versões', href:'https://certificates.digitalinnovation.one/3AFB83E9' },
     { icon: <GitHubIcon />, title: 'Introdução ao GitHub e Comandos para Trabalhar em Equipe', href:'https://certificates.digitalinnovation.one/5F8A30D9' },
     { icon: <CodeIcon />, title: 'Lógica de Programação Essencial', href:'https://certificates.digitalinnovation.one/D53C7BEC' },
-    { icon: <CodeIcon />, title: `JavaScript: Primeiros passos com a linguagem`, href:'https://cursos.alura.com.br/certificate/367f772f-0668-49d2-aa40-d8ca39b51593' }
+    { icon: <CodeIcon />, title: `JavaScript: Primeiros passos com a linguagem`, href:'https://cursos.alura.com.br/certificate/367f772f-0668-49d2-aa40-d8ca39b51593' },
+    { icon: <CodeIcon />, title: `Javascript: Introdução a orientação de objetos`, href:'https://cursos.alura.com.br/certificate/3ef8990a-b8bd-4af8-8c8a-02288cc7851a' },
+    { icon: <WebAssetIcon />, title: `Kanban Foundation (KIKF™)`, href:'https://certificates.easy-lms.com/exam/session/8fafcfa7-b964-4aff-a76e-2952eb1d1126' },
+    { icon: <SportsRugbyIcon />, title: `Scrum Foundation Professional Certificate`, href:'' }
   ]
 
   return (

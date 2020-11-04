@@ -24,17 +24,15 @@ const SkillContent = styled.div`
     }
 
     & > span {
-        background: white;
         display: block;
-        height: 3px;
-        border: 1px solid rgba(0,0,0,0.3);
+        height: 4px;
         border-radius: 3px;
-        box-shadow: 0 0 3px black; 
+        box-shadow: 0 0 3px aqua; 
 
         span {
-            height: 3px;
+            height: 4px;
             float: left;
-            background: rgb(0, 202, 202);
+            background: white;
             width: ${props => props.bar}%;
             animation: habilidades 3s;
         }
