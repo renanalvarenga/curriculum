@@ -3,6 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Viajamente from './pictureViajamente.png'
 import Michelon from './pictureMichelon.png'
+import Ativaidade from './pictureAtivaidade.png'
 
 function Experience() {
   return (
@@ -23,6 +24,13 @@ function Experience() {
             </a>
               <h3><b>Michelon Auditores</b></h3>
               <p>Empresa de auditoria e consultoria</p>
+          </div>
+          <div>
+            <a href='https://www.ativaidadesaude.com.br/' target='_blank' rel="noopener noreferrer">
+              <img src={Ativaidade} alt="logoAtivaidade" />
+            </a>
+              <h3><b>Ativaidade</b></h3>
+              <p>Academia de musculação e pilates</p>
           </div>
         </div>
     </ExperienceContent>
